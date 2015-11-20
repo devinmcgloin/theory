@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /urbansolutions/
-Disallow: /urbansolutions2001/
-Disallow: /cdg/
