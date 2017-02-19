@@ -1,5 +1,6 @@
 language: ruby
-
+before_script:
+    - gem install rake
 deploy:
   provider: s3
   access_key_id: AKIAJQMMCQRNCBMPKLIQ
