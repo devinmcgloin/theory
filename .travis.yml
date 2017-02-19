@@ -1,0 +1,9 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAJQMMCQRNCBMPKLIQ
+  secret_access_key:
+    secure: jpu1BHramrEKqHMlA9vnkxXue+FoiK/8w4a3pPUGGBDxsKOGzgJWaIk5TA4JhWxYCY/DJCJPFFVEL8RJQLroYFbnqhwdbjivClUzWgKvOntNoA3Us9zaUpwc5sopQu/PbYRcEkRd7HpY3lVyo8Iu6RZ+y5P1mdHxVZ90fgxvuZxIw0J3b1kO2vzzKgDQmBlH3iyiHBOmqESil9DbohRNtNzvAE7s12oEP3fd0/oCVqNqwDK6HHZdI4JQ3WLElNBcHw+J4qKGatC27dWy81EyHE4ZMHQA9vZdfFWgAjwzfg3oZFJ6RjpyR3nnyBz1NxTOKywNRGhh6S8GW9hc/w9dpBZkkfGGra/tyBLcIoTomm9caPBbZhmlmWb5ZjzDiYVO9SrHVbT6PeSQacXEWt74GEv+idsRDKhCD7Q+d0yc0GcX4Kl17Ku6uIZUnbumYzRxA/NoV0R1M32pTTmCzuPaCpiePn87gHkhGwaR+K3q43Q2NB3wyBdFHALu/Z/mO2iXs9yuRwH2Sr2DBPVfYw9OJDhiRO5HNhsSRrB2sBhwjoMExO9hILrPTw4pW3lrpdQ/9/z7S9q6wCSZvTEaPM6ldcgNhgwZsnAE9VU8RUjwUU00JaVRba5m/JeYIcTXxjKZtwGrCLEahTUXRdOqufV59Ip0RoFTaOoS//gOUi/cQfI=
+  bucket: refs.devinmcgloin.com
+  acl: public_read
+  on:
+    repo: devinmcgloin/theory
